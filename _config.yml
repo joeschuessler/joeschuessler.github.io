@@ -1,0 +1,32 @@
+title: Notes from the Tinkerlab
+description: An idiot's ramblings on technology, programming, and life.
+theme: minima
+
+minima:
+  skin: dark
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Enable dark mode by overriding minima's skin
+sass:
+  style: compressed
+
+# Custom CSS for further dark mode tweaks
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
