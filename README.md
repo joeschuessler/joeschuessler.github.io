@@ -1,2 +1,2 @@
 # Notes from the Tinkerlab
-If these words are visible, pages are live
+http://joeschuessler.github.io is the place to be looking
